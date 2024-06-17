@@ -1,3 +1,36 @@
+body{
+    background-color: black;
+}
+
 h1{
-    color: red;
+    color: blue;
+    font-family:'Courier New';
+
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 585px;
+    flex-direction: column;
+    padding-top: 285px;
+    font-size: 35px;
+
+}
+
+.bg{
+    background-image:url('images/2106.q703.016.S.m004.c10.household\ appliance\ realistic.jpg') ;
+    background-size: cover; 
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+h3{
+    color: white;
+
+}
+
+.sh{
+    padding: 25px;
 }
