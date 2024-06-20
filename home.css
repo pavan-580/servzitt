@@ -1,36 +1,84 @@
-body{
+.body{
     background-color: black;
+    width: 85%;
+}
+
+
+
+
+
+.bg{
+    background-image: url('2106.q703.016.S.m004.c10.household\ appliance\ realistic.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 107%;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
     color: blue;
     font-family:'Courier New';
-
-}
-
-.h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 585px;
-    flex-direction: column;
-    padding-top: 285px;
-    font-size: 35px;
-
-}
-
-.bg{
-    background-image:url('2106.q703.016.S.m004.c10.household appliance realistic.jpg') ;
-    background-size: cover; 
-    height: 100vh;
-    background-attachment: fixed;
-}
-
-h3{
-    color: white;
-
+    opacity: 100; 
+    width: 169%;
+    margin-left: 55px;
+    background-color: aqua;
 }
 
 .sh{
     padding: 25px;
+    color: white;
+
 }
+
+nav {
+    width: 84%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+
+
+nav .logo{
+    width: 80px;
+    position: fixed;
+    margin-top: 50px;
+    margin-right: 900px;
+}
+
+.container{
+    padding: 350px;
+    margin-left: 525px;
+    margin-right: 15px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 65px;
+    text-decoration-line: none;
+    
+}
+
+li :hover{
+    color: red;
+}
+
+ul{
+    margin-left: 650px;
+    margin-top: 50px;
+    position: fixed;
+    
+    
+}
+
