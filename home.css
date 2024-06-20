@@ -3,10 +3,6 @@
     width: 85%;
 }
 
-
-
-
-
 .bg{
     background-image: url('2106.q703.016.S.m004.c10.household\ appliance\ realistic.jpg');
     height: 100vh;
@@ -46,8 +42,6 @@ nav {
     justify-content: space-between;
     background-color: transparent;
 }
-
-
 
 nav .logo{
     width: 80px;
